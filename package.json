@@ -1,0 +1,36 @@
+{
+  "name": "@knockaway/sqsiphon",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/knockaway/@knockaway/sqsiphon",
+  "license": "LicenseRef-LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knockaway/@knockaway/sqsiphon.git"
+  },
+  "dependencies": {
+    "opentracing": "^0.14.4"
+  },
+  "devDependencies": {
+    "tap": "^14.10.7",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "check-format": "prettier --list-different '*.js' 'lib/**/*.js' 'test/**/*.js'",
+    "format": "prettier --write '*.js' 'lib/**/*.js' 'test/**/*.js'",
+    "lint": "eslint '*.js' 'lib/**/*.js' 'test/**/*.js'",
+    "test": "LOG_LEVEL=silent tap --no-cov",
+    "test:cov": "LOG_LEVEL=silent tap",
+    "test:cov:html": "LOG_LEVEL=silent tap --coverage-report=html",
+    "test:watch": "LOG_LEVEL=silent tap -n -w --no-coverage-report"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+files: 'test/**/*.test.js'
+
+# Disable extra loaders built-in to Tap
+esm: false
+jsx: false
+ts: false
+
+# Adjust accordingly if your tests need more time
+# timeout: 120
