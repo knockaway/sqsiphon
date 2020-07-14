@@ -1,7 +1,7 @@
 {
   "name": "@knockaway/sqsiphon",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/knockaway/@knockaway/sqsiphon",
   "license": "LicenseRef-LICENSE",
   "repository": {
@@ -9,6 +9,7 @@
     "url": "https://github.com/knockaway/@knockaway/sqsiphon.git"
   },
   "dependencies": {
+    "abstract-logging": "^2.0.0",
     "opentracing": "^0.14.4"
   },
   "devDependencies": {
