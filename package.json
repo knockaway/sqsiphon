@@ -9,6 +9,7 @@
     "url": "https://github.com/knockaway/@knockaway/sqsiphon.git"
   },
   "dependencies": {
+    "abstract-logging": "^2.0.0",
     "opentracing": "^0.14.4"
   },
   "devDependencies": {
