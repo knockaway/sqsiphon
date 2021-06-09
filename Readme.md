@@ -1,8 +1,8 @@
 # @knockaway/sqsiphon
 
-_sqsiphon_ is provides a framework for writing [Amazon SQS][sqs] polling
-applications. It designed to poll, and process messages, as quickly as possible.
-FIFO queues are supported.
+_sqsiphon_ provides a framework for writing [Amazon SQS][sqs] polling
+applications. It is designed to poll, and process messages, as quickly as
+possible. FIFO queues are supported.
 
 [sqs]: https://aws.amazon.com/sqs/
 
