@@ -3,7 +3,7 @@
   "main": "index.js",
   "version": "1.0.1",
   "homepage": "https://github.com/knockaway/@knockaway/sqsiphon",
-  "license": "LicenseRef-LICENSE",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/knockaway/@knockaway/sqsiphon.git"
