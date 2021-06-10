@@ -2,11 +2,11 @@
   "name": "@knockaway/sqsiphon",
   "main": "index.js",
   "version": "1.1.0",
-  "homepage": "https://github.com/knockaway/@knockaway/sqsiphon",
+  "homepage": "https://github.com/knockaway/sqsiphon",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/knockaway/@knockaway/sqsiphon.git"
+    "url": "https://github.com/knockaway/sqsiphon.git"
   },
   "dependencies": {
     "abstract-logging": "^2.0.1",
