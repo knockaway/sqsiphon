@@ -3,7 +3,6 @@
 const { EventEmitter } = require('events');
 const opentracing = require('opentracing');
 const poller = require('./lib/poller');
-const keepAlive = require('./lib/keep-alive');
 
 const {
   symFifoSorter,
@@ -51,7 +50,6 @@ const proto = Object.create(EventEmitter.prototype, {
         return;
       }
       this[symRunning] = true;
-      keepAlive.call(this);
 
       setImmediate(doPoll.bind(this));
 
